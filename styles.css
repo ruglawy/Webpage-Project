@@ -6,7 +6,8 @@ html, body{
 .header-links,
 .first-part,
 .images-with-text,
-.fourth-part{
+.fourth-part,
+.image{
     display: flex;
 }
 .header div {
@@ -29,18 +30,82 @@ html, body{
 .header,
 .first-part{
     background-color: #1F2937;
-    color: white;
+    /*color: white;*/
     font-family: "Trebuchet MS" , sans-serif;
     padding-left: 150px;
+    color: #f9faf8;
 }
 .first-part {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.image {
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding-left: 120px;
 }
 .meatloaf-image {
+    width: 200px;
     height: 200px;
-    width: 400px;
-    margin-right: auto;
-    margin-left: auto;
+    border-radius: 10px;
 }
+.header-links a {
+    margin: auto;
+    color: #f9fbff;
+}
+.header-links {
+    padding-left: 500px;
+}
+.header {
+    position: sticky;
+    top: 0;
+    opacity: 0.9;
+}
+.paragraph {
+    text-align: justify;
+    max-width: 600px;
+    color: #f9faf8;
+}
+.sign-up {
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    font-family: Alata, sans-serif;
+}
+.second-part {
+    background-color: white;
+    text-align: center;
+}
+.second-part h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    font-family: "Trebuchet MS" , sans-serif;
+    color: #1F2937;
+}
+.images-with-text {
+    max-height: 480px;
+    max-width: 480px;
+    /*align-items: center;*/
+    justify-content: center;
+    /*text-align: center;*/
+    margin: auto;
+}
+
+.images img {
+    height: 200px;
+    width: 300px;
+    /*display: block;*/
+    padding: 15px;
+    border-radius: 24px;
+}
+.images p {
+    font-family: "Trebuchet MS" , sans-serif;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -5px;
+}
+
+
 
