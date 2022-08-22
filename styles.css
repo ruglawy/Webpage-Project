@@ -2,6 +2,9 @@ html, body{
     margin: 0;
     padding: 0;
 }
+* {
+    font-family: "Trebuchet MS" , sans-serif;
+}
 .header,
 .header-links,
 .first-part,
@@ -16,14 +19,7 @@ html, body{
 .first-part .paragraph {
     width: 700px;
 }
-.button-signup {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    height: 120px;
-    width: 700px;
-}
+
 .footer {
     text-align: center;
 }
@@ -76,6 +72,7 @@ html, body{
 .second-part {
     background-color: white;
     text-align: center;
+    margin-bottom: 40px;
 }
 .second-part h2 {
     font-size: 36px;
@@ -101,10 +98,58 @@ html, body{
 }
 .images p {
     font-family: "Trebuchet MS" , sans-serif;
-    font-size: 16px;
+    font-size: 14px;
+    opacity: 0.9;
     padding-left: 20px;
     padding-right: 20px;
     margin-top: -5px;
+}
+.third-part {
+    text-align: center;
+    background-color: #e5e7eb;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 35px 350px 35px 350px;
+
+}
+.third-part p {
+    font-style: italic;
+    font-weight: lighter;
+    opacity: 0.65;
+    text-align: justify;
+    font-size: 30px;
+    max-height: available;
+    max-width: available;
+    line-height: 40px;
+}
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #f9faf8;
+    padding: 5px;
+}
+.footer p {
+    opacity: 0.7;
+}
+.fourth-part {
+    margin: 60px 300px 60px 300px;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 20px 40px 20px 40px;
+    color: #f9faf8;
+
+}
+.button-signup {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#par {
+    margin-top: -10px;
 }
 
 
